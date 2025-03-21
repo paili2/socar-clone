@@ -1,0 +1,7 @@
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../photo/main_visual_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
