@@ -1,0 +1,50 @@
+footer {
+    width: 100%;
+    background-color: #28323c;
+    padding: 40px 18px 100px;
+}
+
+.footer-contents {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sns {
+    display: flex;
+    gap: 10px;
+}
+
+.company-info {
+    display: flex;
+    color: #c5c8ce;
+    display: flex;
+    gap: 30px;
+}
+
+.importance {
+    color: #ffffff;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    color: #646f7c;
+    font-size: 13px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.business-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

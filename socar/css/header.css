@@ -1,43 +1,43 @@
 header {
-  width: 100vw;
-  position: fixed;
+    width: 100%;
+    position: fixed;
 }
 
 .header_contents {
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .hamburger {
-  display: flex;
-  flex-direction: column;
-  width: 36px;
-  height: 14px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 36px;
+    height: 14px;
+    position: relative;
 }
 
 .upbar {
-  width: 26px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
-  top: 0;
+    width: 26px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 0;
 }
 
 .downbar {
-  width: 26px;
-  height: 3px;
-  background-color: white;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+    width: 26px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

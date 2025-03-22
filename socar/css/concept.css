@@ -1,0 +1,61 @@
+.concept {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.concept-contents {
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+.card {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.card > h3 {
+    color: #374553;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+}
+
+.card > h3::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background-color: #0bb8ff;
+
+    position: absolute;
+    bottom: 3px;
+    right: -18px;
+}
+
+.card > p {
+    color: #aaaaaa;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.card-album {
+    width: 90%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+.card-album > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
