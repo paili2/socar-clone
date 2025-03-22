@@ -1,6 +1,7 @@
 header {
     width: 100%;
     position: fixed;
+    transition: all 0.5s;
 }
 
 .header_contents {
@@ -14,7 +15,6 @@ header {
 
 .logo {
     width: 100px;
-    height: 100px;
 }
 
 .hamburger {
@@ -28,7 +28,6 @@ header {
 .upbar {
     width: 26px;
     height: 3px;
-    background-color: white;
     position: absolute;
     top: 0;
 }
@@ -36,8 +35,25 @@ header {
 .downbar {
     width: 26px;
     height: 3px;
-    background-color: white;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.showBack {
+    background-color: rgba(255, 255, 255, 0.86);
+    transform: translateY(-70px);
+}
+
+.offBack {
+    background-color: transparent;
+    transform: translateY(0px);
+}
+
+.point-color {
+    background-color: #0bb8ff;
+}
+
+.white-color {
+    background-color: white;
 }
