@@ -30,6 +30,10 @@ footer {
     color: #ffffff;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .footer-info {
     display: flex;
     justify-content: space-between;

@@ -2,6 +2,7 @@ header {
     width: 100%;
     position: fixed;
     transition: all 0.5s;
+    z-index: 10;
 }
 
 .header_contents {
@@ -23,21 +24,42 @@ header {
     width: 36px;
     height: 14px;
     position: relative;
+    cursor: pointer;
 }
 
 .upbar {
     width: 26px;
     height: 3px;
     position: absolute;
-    top: 0;
+    transition: all 0.2s;
 }
 
 .downbar {
     width: 26px;
     height: 3px;
     position: absolute;
+    transition: all 0.2s;
+}
+
+.up-basic {
+    top: 0;
+    background-color: white;
+}
+
+.down-basic {
     bottom: 0;
     right: 0;
+    background-color: white;
+}
+
+.up-act {
+    transform: rotate(-45deg);
+    background-color: #0bb8ff;
+}
+
+.down-act {
+    transform: rotate(45deg);
+    background-color: #0bb8ff;
 }
 
 .showBack {

@@ -2,6 +2,7 @@
     position: fixed;
     right: -30px;
     bottom: 0px;
+    z-index: 100;
 }
 
 .app-box {
@@ -9,6 +10,11 @@
     height: 90px;
     background-color: #0bb8ff;
     transform: skew(-30deg);
+}
+
+.off-box {
+    position: absolute;
+    right: -100px;
 }
 
 .app-text {
