@@ -9,7 +9,9 @@
     width: 340px;
     height: 90px;
     background-color: #0bb8ff;
-    transform: skew(-30deg);
+    animation: box-in 0.5s forwards;
+    animation-delay: 1.3s;
+    transform: skew(-30deg) translateX(350px);
 }
 
 .off-box {
@@ -24,6 +26,9 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+    animation: show-in 0.5s forwards;
+    animation-delay: 0.8s;
+    opacity: 0;
 }
 
 .app-album {
@@ -34,6 +39,9 @@
     height: 60px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: show-in 0.7s ease-out forwards;
+    animation-delay: 1.6s;
+    opacity: 0;
 }
 
 .app-album > img {
@@ -41,4 +49,22 @@
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
+}
+
+@keyframes box-in {
+    0% {
+        transform: skew(-30deg) translateX(350px);
+    }
+    100% {
+        transform: skew(-30deg) translateX(0px);
+    }
+}
+
+@keyframes show-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

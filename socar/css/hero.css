@@ -19,8 +19,22 @@
 }
 
 .hero-title {
+    opacity: 0;
     color: white;
     font-weight: bold;
     font-size: 60px;
     line-height: 1.5;
+    animation: fadeUp 0.3s cubic-bezier(0.42, 0, 1, 1) forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }

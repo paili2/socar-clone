@@ -1,6 +1,11 @@
 .menu {
     width: 100%;
+    height: 100%;
     overflow: hidden;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 5;
 }
 
 .menu-on {
@@ -8,19 +13,30 @@
     height: 100vh;
     background-color: #28323c;
     position: absolute;
-    right: 0px;
-    top: 0px;
     padding: 35px;
+    transform: translateX(1350px);
     transition: all 0.5s;
+    z-index: 5;
 }
 
 .menu-off {
     height: 100vh;
     padding: 35px;
-    transform: translateX(570px);
+    transform: translateX(1880px);
+    z-index: 5;
 }
 
-.cell {
+.cell-off {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.cell-on {
     position: absolute;
     right: 0px;
     top: 0px;
@@ -28,6 +44,7 @@
     height: 100%;
     background-color: black;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .menu-contents {
